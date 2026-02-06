@@ -12,8 +12,8 @@ const app: Application = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/foods", foodRouter);
-// app.use("/users", userRouter);
+// app.use("/foods", foodRouter);
+app.use("/users", userRouter);
 
 app.listen(8000, () => {
   connectTMongoDB();
