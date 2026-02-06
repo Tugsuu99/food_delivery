@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { User_Model } from "../../models";
-import { verifyUserEmail } from "../../../utils/mail-utils";
+import { verifyUserEmail } from "../../utils/mail-utils";
 
 // export const resetPassword = async (req: Request, res: Response) => {
 //     try{

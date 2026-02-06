@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { User_Model } from "../../models";
-import { verifyUserEmail } from "../../../utils/mail-utils";
+import { verifyUserEmail } from "../../utils/mail-utils";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
